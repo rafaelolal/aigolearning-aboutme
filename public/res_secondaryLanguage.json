@@ -1,115 +1,161 @@
 {
     "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+      "description_header": "Olá!",
+      "description": "Estou na 11º ano do ensino médio, sou apaixonado por Ciência da Computação e por ensinar. Entrei no AiGoLearning em dezembro de 2020. Agora, sou vice-presidente e responsável pelo time de tecnologia. Comecei minha jornada dando aula de Python, e meu amor por ajudar os outros me levou a um nível que eu nunca poderia imaginar! Sou eternamente grato pelas oportunidades que tive e pelas pessoas que conheci aqui.",
       "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "about": "Sobre mim",
+        "projects": "Projetos",
+        "skills": "Habilidades",
+        "experience": "Experiência"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+        "title": "Bot para AiGocode",
+        "startDate": "27 de dezembro, 2021",
+        "description": "Uma bot que serve como interface no Discord para aigocode.org, criado com Discord.py. Este bot permite que você interaja com aigocode.org via o Discord, e inclui vários outros recursos para o engajamento dos membros do servidor. Esse bot é usado por mais de 200 pessoas em a partir de 4 de abril, 2022",
         "images": [
           "images/portfolio/animal-shelter/p1.jpg",
           "images/portfolio/animal-shelter/p2.jpg"
         ],
-        "url": "",
+        "url": "https://www.aigocode.org/aboutdiscord",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-python-plain",
+            "name": "Python"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-django-plain",
+            "name": "Django"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDB"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+        "title": "Bot para Agendamentos",
+        "startDate": "24 de novembro, 2021",
+        "description": "Depois de conversar com o responsável pelas avaliações dos novos professores, percebi uma necessidade extrema de automatizar o agendamento entre professores e avaliadores. Esse bot do Discord permite que os professores agendem avaliações em qualquer curso e a qualquer momento, dependendo da disponibilidade dos avaliadores no servidor. Atualmente, de 4 de abril, 2022, esse bot serve 150 pessoas.",
         "images": [
           "images/portfolio/adventure/p1.jpg",
           "images/portfolio/adventure/p2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-python-plain",
+            "name": "Python"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-sqlite-plain",
+            "name": "SQLite"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-googlecloud-plain",
+            "name": "Google Cloud"
+          }
+        ]
+      },
+      {
+        "title": "Criação de Classe Independente",
+        "startDate": "setembro, 2021",
+        "description": "Após criar o programa STAR, um dos benefícios para os professores STAR é poder criar seus próprios horários e aulas no horário que quiserem. Então, criei um Google Forn onde o professor insere todas as informações sobre a aula que deseja ministrar. Todas essas informações, depois de passar por um programa em Python, é feita disponível para os pais que desejam matricular seus filhos no AiGoLearning.",
+        "images": [
+          "images/portfolio/photography/p1.jpg",
+          "images/portfolio/photography/p2.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-googlecloud-plain",
+            "name": "Google Cloud"
+          }
+        ]
+      },
+      {
+        "title": "Analizador de Professores",
+        "startDate": "31 de agosto, 2021",
+        "description": "Depois da criação do programa STAR, eu pensei que seria bom ter uma maneira de dar uma pontuação para cada professor baseado em vários fatores, incluindo habilidade de liderança, organização, engajamento com estudantes e familiaridade com o curso. Esse analisador foi criado com um Google Form, onde você insere o nível de habilidade do professor. Depois, um programa de Python analisa os dados e escreve o resultado em uma Google Spreadsheet",
+        "images": [
+          "images/portfolio/adventure/p1.jpg",
+          "images/portfolio/adventure/p2.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-googlecloud-plain",
+            "name": "Google Cloud"
+          }
+        ]
+      },
+      {
+        "title": "Programa STAR",
+        "startDate": "23 de agosto, 2021",
+        "description": "Depois de ser nominado como Direto de Qualidade de Ensino, e vendo o grande progresso nas habilidades de dar aula de muitos professores em AiGOlearning, eu decidi criar o Programa STAR. Nesse programa, os melhores professores recebem varios beneficios.",
+        "images": [
+          "images/portfolio/adventure/p1.jpg",
+          "images/portfolio/adventure/p2.jpg"
+        ],
+        "url": "",
+        "technologies": [
+        ]
+      },
+      {
+        "title": "Curso de Python",
+        "startDate": "12 de julho, 2021",
+        "description": "Depois de ver o péssimo curso de Python em AiGoLearning, junto com outro amigo, a gente criou um novo curso de 16 horas em object oriented programming em Python. Esse curso inclui apresentações, materiais, instruções em como dar a aula e recursos extras para os professores.",
+        "images": [
+          "images/portfolio/photography/p1.jpg",
+          "images/portfolio/photography/p2.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
+        "company": "AiGoLearning",
+        "title": "Vice-Presidente",
+        "years": "01.2022 - present",
+        "description": "Fui considerado para ser presidente, porém, entendendo a grande responsabilidade que teria e sabendo que não conseguiria conciliar todos os aspectos da minha vida, tornei-me vice-presidente. Nesta posição, sou responsável pela equipe de tecnologia e pelo desenvolvimento de qualquer software para AiGoLearning.",
         "mainTech": [
-          "Angular 8/9/10"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
+        "company": "AiGoLearning",
+        "title": "Diretor de Qualidade de Ensino",
+        "years": "07.2021 - 01.2022",
+        "description": "Devido ao meu excelente desempenho como professor, fui considerado Diretor de Qualidade de Ensino. Nesta posição sou responsável por melhorar a qualidade de todos os professores, essencialmente espalhando a sabedoria que adquiri dando aula. Impactei dezenas de professores com workshops, reuniões individuais e espero que impactei uma quantidade exponencialmente maior de alunos. Também estou organizando meu trabalho tão bem que quem me substituir terá uma base estruturada para continuar ajudando os outros.",
         "mainTech": [
-          "Angular 7/8"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
+        ]
+      },
+      {
+        "company": "AiGoLearning",
+        "title": "Professor",
+        "years": "12.2020 - 07.2021",
+        "description": "Eu não tive o melhor professor de Python durante o meu 10° ano. Por causa disso, a maioria dos meus colegas dependiam de mim para aprender a matéria. Uma amiga minha percebeu minha paixão por ensinar, e sendo uma professora em AiGoLearning, ela me convidou para ser também. Até agora, dei três aulas, liderei cinco dias de demonstração e fui selecionado como professor da semana na minha primeira semana aqui. Eu recomendo visitar meu LinkedIn e ver meus posts em destaque para uma entrevista que fiz quando selecionado como professor da semana.",
+        "mainTech": [
+        ],
+        "technologies": [
         ]
       }
     ]

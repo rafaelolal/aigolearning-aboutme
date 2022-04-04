@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "I am currently a junior in high school, in love with Computer Science, and teaching. I joined AiGoLearning in December of 2020. Currently I am a vice president and responsible for the Tech Team. I started my journey here as a Python teacher, and my love for helping others brought me to a level I could have never imagined! I am forever grateful for the opportunities I had and the poeple I met at AiGoLearning.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,107 +11,148 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "AiGoCode Bot",
+        "startDate": "December 27, 2021",
+        "description": "A Discord interface for aigocode.org, created with Discord.py. This bot allows you to interact with aigocode.org straight from Discord, and includes many more fun functionalities for member engagmenet. This bot serves over 200 people as of April 4, 2022",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/aigocode/p1.png",
+          "images/portfolio/aigocode/p2.png"
+        ],
+        "url": "https://www.aigocode.org/aboutdiscord",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-django-plain",
+            "name": "Django"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDB"
+          }
+        ]
+      },
+      {
+        "title": "Scheduling Bot",
+        "startDate": "November 24, 2021",
+        "description": "After having a conversation with who was responsible for teacher training at AiGoLearning, I noticed there was a dire need to automate scheduling between teachers and evaluations. This Discord bot allows teachers to quickly schedule an evaluation for any course at any time, given the availability of the evaluators in the server. This bot serves 150 users as of April 4, 2022.",
+        "images": [
+          "images/portfolio/scheduling/p1.png",
+          "images/portfolio/scheduling/p2.png"
         ],
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-python-plain",
+            "name": "Python"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-sqlite-plain",
+            "name": "SQLite"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-googlecloud-plain",
+            "name": "Google Cloud"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Independent Class Creation",
+        "startDate": "September, 2021",
+        "description": "After creating the STAR program, one of the benefits STAR teachers would have is the ability to create their own classes, in their own time. For this, I created a Google Form that would ask the teacher when they were available, what course to teach, and etc. All of this information, after going through a Python script, is then displayed to parents who would like to get their kids in AiGoLearning.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/class_creator/p1.png"
         ],
-        "url": "https://github.com",
+        "url": "",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-python-plain",
+            "name": "Python"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-googlecloud-plain",
+            "name": "Google Cloud"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Teacher Analyzer",
+        "startDate": "August 31, 2021",
+        "description": "After the creation of the STAR program, I thought it would be nice to have a way to assign scores to teachers based on many factors, including leadership skills, organization, student engagement, and course knowledge. This analzyer was created using a Google Form where you could submit the skill level of a teacher. From there, a Python script would analzye the data and write the score to a Google Spreadsheet.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/analyzer/p1.png"
         ],
-        "url": "https://github.com",
+        "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-python-plain",
+            "name": "Python"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
+            "class": "devicon-googlecloud-plain",
+            "name": "Google Cloud"
+          }
+        ]
+      },
+      {
+        "title": "STAR Program",
+        "startDate": "August 23, 2021",
+        "description": "After being nominated Teaching Quality Officer, and seeing great progress in the teaching skills of many teachers at AiGoLearning, I decided to create the STAR Program. In this program, the best teachers would receive countless benefits.",
+        "images": [
+          "images/portfolio/star/p1.png",
+          "images/portfolio/star/p2.png"
+        ],
+        "url": "",
+        "technologies": [
+        ]
+      },
+      {
+        "title": "Python Curriculum",
+        "startDate": "July 12, 2021",
+        "description": "Noticing a lackluster Python curriculum at AiGoLearning, together with another peer, we created a new 16-hour curriculum for object oriented programming with Python. It includes class outlines, presentations, materials, instructions on how to teach, and extra resources.",
+        "images": [
+          "images/portfolio/curriculum/p1.png"
+        ],
+        "url": "",
+        "technologies": [
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-python-plain",
+            "name": "Python"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "AiGoLearning",
+        "title": "Vice President",
+        "years": "01.2022 - present",
+        "description": "I was considered for president, however, understanding the great responsibility I'd have, and knowing I would not be able to reconcile all the aspects of my life, I became vice president. In this position, I am responsible for the tech team and the development of any software for AiGoLearning.",
         "mainTech": [
-          "Angular 8/9/10"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "AiGoLearning",
+        "title": "Teaching Quality Officer",
+        "years": "07.2021 - 01.2022",
+        "description": "Due to my outsanding performance as a teacher, I was considered for Teaching Quality Officer. In this position I am responsible for improving the overall quality of all teachers, essentially spreading the wisdom I have acquired teaching. I impacted dozens of teachers with workshops, one-on-one meetings, and hopefully, an exponentially larger amount of students. I am also making sure to structure my work so well that whoever replaces me has a structured foundation to continue helping others.",
         "mainTech": [
-          "Angular 7/8"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+        ]
+      },
+      {
+        "company": "AiGoLearning",
+        "title": "Teacher",
+        "years": "12.2020 - 07.2021",
+        "description": "I did not have the best Python teacher during my Sophomore year in highschool, and because of that, most of my classmates depended on me to learn the subject. A friend of mine noticed my passion for teaching, and being a former teacher at AiGoLearning, she invited me to be one too. As of now, I have taught three classes, lead five demo days, and I was selected as teacher of the week my first week here. I recommend visitng my LinkedIn and looking at my featured posts for an interview I did when selected as teacher of the week.",
+        "mainTech": [
+        ],
+        "technologies": [
         ]
       }
     ]
